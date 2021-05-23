@@ -37,7 +37,7 @@ data=pd.read_csv(
 
 tavg_nodata_count = None
 #YOUR CODE HERE 2
-tavg_nodana_count=data['TAVG'].isnull().sum()
+tavg_nodata_count=data['TAVG'].isnull().sum()
 
 
 #CAUTION!!! DON'T EDIT THIS PART START
